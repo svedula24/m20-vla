@@ -1,0 +1,35 @@
+# Datasets and checkpoints never go in git
+data/raw/
+data/processed/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.hdf5
+*.h5
+*.npz
+*.zarr/
+logs/
+outputs/
+runs/
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.eggs/
+build/
+dist/
+
+# Isaac / Omniverse
+.cache/
+_isaac_sim
+kit/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
